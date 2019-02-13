@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/placeholder" />
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/image_product"
+                android:text="Product Name" />
+
+            <TextView
+                android:id="@+id/product_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="49dp"
+                android:layout_toEndOf="@+id/image_product"
+                android:text="DesCripion" />
+
+            <TextView
+                android:id="@+id/product_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="83dp"
+                android:layout_toEndOf="@+id/image_product"
+                android:text="Brand :" />
+
+            <TextView
+                android:id="@+id/product_prise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="111dp"
+                android:layout_toEndOf="@+id/image_product"
+                android:text="$"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

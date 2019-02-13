@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:title="Cloth"
+    android:icon="@drawable/clothico"
+    android:id="@+id/home_nav">
+
+</item>
+<item
+    android:title="Electronic"
+    android:icon="@drawable/phone"
+    android:id="@+id/user_nav">
+
+</item>
+<item
+    android:title="Others"
+    android:icon="@drawable/ic_people"
+    android:id="@+id/setting_nav">
+
+</item>
+
+</menu>
